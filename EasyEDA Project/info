@@ -1,0 +1,626 @@
+{
+  "uuid": "156e23e72a90b50fde39362a5e3b843d",
+  "path": "Offline/Diplomski",
+  "name": "Diplomski",
+  "content": "",
+  "created_at": "2022-12-28 08:11:37",
+  "updated_at": "2023-01-05 10:59:48",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "aa19e97d41cab46e2b5ad237798c5e35",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d1877b33a7f54f7f945a86aef34be8ab": 2,
+        "4269ffebb5fc4510a57fc57b1bd24dd2": 2,
+        "7856cfcf60ea4968996e02cf4f6356d2": 1,
+        "054e886159684826893a3918b94fd921": 1,
+        "ffaa370a8c4f4dc0b6b68c24854d75bf": 1,
+        "cd6bc939f13646fcbee66b821106a528": 1,
+        "54d9199ba4d9482898c5364a4d2c0ab0": 1,
+        "9669163051044703a07eaec8582464b6": 1,
+        "0419814e39e44057a275ca897a6f43ca": 1,
+        "9716b9a9ade742d3b6a51d0dab837304": 4,
+        "6d047fa3f5b84be6b1615d5fd4d4bd96": 2,
+        "3af0bf2a9903493896a8f08e5a1d63a0": 1,
+        "beb7660708a0499fac6a060cc3851aa2": 2,
+        "f830b434fcd74bed9d677af047405a95": 1,
+        "7c4042779cea4abdf4b201e0d3ecfdb3": 1,
+        "58557ab5dac544259249b4981dd6020c": 1,
+        "427c0d0e24e744f1855cf89162944982": 5,
+        "bc05691badd44435826c421441c93e15": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Header-Female-2.54_1x3",
+          2,
+          "HDR-TH_3P-P2.54-V-F",
+          "ACS712-P1,VOLTAGE_SENS_P1",
+          {
+            "BOM_Supplier Part": "C146243",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Boom Precision Elec",
+            "BOM_Manufacturer Part": "Header-Female-2.54_1x3",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "cdd2a2f88f9047a3974e8fb98887b1dd",
+            "uuid": "beb7660708a0499fac6a060cc3851aa2"
+          }
+        ],
+        [
+          "1X2 POWER PCB CONNECTO COPY",
+          3,
+          "1X2-POWER-PCB-CONNECTOR",
+          "ACS712-P2,POWER,VOLTAGE_SENS_P2",
+          {
+            "BOM_Manufacturer Part": "1x2 pin header",
+            "puuid": "dd4ff0cf16e44c9a893a4005f2a78ab7",
+            "uuid": "9716b9a9ade742d3b6a51d0dab837304"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x4",
+          1,
+          "HDR-TH_4P-P2.54-V-M",
+          "BME-280",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Ckmtw(灿科盟)",
+            "BOM_Manufacturer Part": "B-2100S04P-A110",
+            "BOM_Supplier Part": "C124378",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "89f5280378144b629de4998ef974b6b8",
+            "uuid": "58557ab5dac544259249b4981dd6020c"
+          }
+        ],
+        [
+          "0.1UF/100V",
+          5,
+          "C0805",
+          "C1,C3,C4,C5,C6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900010259",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "0.1uF/100V",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "427c0d0e24e744f1855cf89162944982"
+          }
+        ],
+        [
+          "2.2uF",
+          1,
+          "2.2UF 50V",
+          "C2",
+          {
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "AISHI",
+            "BOM_Manufacturer Part": "ERM1HM2R2D11OT",
+            "BOM_Supplier Part": "C106603",
+            "puuid": "98e4887b00dc455ba413989dad8d47f0",
+            "uuid": "0419814e39e44057a275ca897a6f43ca"
+          }
+        ],
+        [
+          "GL34B-E3/98",
+          1,
+          "DO-213AA_L3.5-W1.5-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C222497",
+            "BOM_Manufacturer": "VISHAY(威世)",
+            "BOM_Manufacturer Part": "GL34B-E3/98",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "c8026257244b42b980c754fd7e67c03e",
+            "uuid": "bc05691badd44435826c421441c93e15"
+          }
+        ],
+        [
+          "ESP32",
+          1,
+          "ESP32-DEVKITC-32D",
+          "ESP32-WROOM-32D",
+          {
+            "BOM_Manufacturer": "ESPRESSIF",
+            "BOM_Manufacturer Part": "ESP32-DEVKITC-32D",
+            "BOM_Supplier": "TME",
+            "BOM_Supplier Part": "ESP32-DEVKITC-32D",
+            "puuid": "d252b25eff4a423bb06df3d32cbe2f43",
+            "uuid": "54d9199ba4d9482898c5364a4d2c0ab0"
+          }
+        ],
+        [
+          "Header-Male-2.54_2x2",
+          1,
+          "HDR-TH_4P-P2.54-V-M-R2-C2-S2.54-1",
+          "HALL_SENSOR",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "Double Rows2.54mm2*2pHeaders  Pins",
+            "BOM_Supplier Part": "C66690",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e49c22feda3c425ab1bbace1f15de151",
+            "uuid": "7c4042779cea4abdf4b201e0d3ecfdb3"
+          }
+        ],
+        [
+          "L7805CV",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "L7805",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ST(意法半导体)",
+            "BOM_Manufacturer Part": "L7805CV",
+            "BOM_Supplier Part": "C111887",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "9669163051044703a07eaec8582464b6"
+          }
+        ],
+        [
+          "M1_",
+          1,
+          "MOTOR_DC",
+          "MOTOR_DC",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "9eee44af4c114646ade1fdea6137bfdc",
+            "uuid": "f830b434fcd74bed9d677af047405a95"
+          }
+        ],
+        [
+          "POTENCIOMETER",
+          2,
+          "ALPS_POT",
+          "MOTOR_SPEED,ZERO_CURRENT",
+          {
+            "BOM_Manufacturer Part": "APAE_B10K_Potentiometer_Vertical",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "ad9bfa43bcf6461e887c81aa79243a8b",
+            "uuid": "6d047fa3f5b84be6b1615d5fd4d4bd96"
+          }
+        ],
+        [
+          "0.96OLED_4P",
+          1,
+          "0.96OLED_4P",
+          "OLED_DISPLAY",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "88b7b62f56d14ce0a65d98c420c09d52",
+            "uuid": "3af0bf2a9903493896a8f08e5a1d63a0"
+          }
+        ],
+        [
+          "POWER PCB CONNECTO 2",
+          1,
+          "1X2-POWER-PCB-CONNECTOR",
+          "POWER2",
+          {
+            "BOM_Manufacturer Part": "1x2 pin header",
+            "puuid": "dd4ff0cf16e44c9a893a4005f2a78ab7",
+            "uuid": "9716b9a9ade742d3b6a51d0dab837304"
+          }
+        ],
+        [
+          "S8050_C2926165",
+          1,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+          "PWMQ1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2926165",
+            "BOM_Manufacturer": "FOSAN(富信)",
+            "BOM_Manufacturer Part": "S8050LT1 J3Y",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "bade90667a6e4731855e9a223387b8a6",
+            "uuid": "054e886159684826893a3918b94fd921"
+          }
+        ],
+        [
+          "AOD518",
+          1,
+          "TO-252-2_L6.6-W6.1-P4.58-LS9.9-BR",
+          "PWMQ2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C878924",
+            "BOM_Manufacturer": "VBsemi(微碧)",
+            "BOM_Manufacturer Part": "AOD518",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "1dc685606e6c472fa35a8b508d1db7a7",
+            "uuid": "ffaa370a8c4f4dc0b6b68c24854d75bf"
+          }
+        ],
+        [
+          "2K",
+          2,
+          "R1206",
+          "PWMR1,PWMR2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "RC1206FR-070RL",
+            "BOM_Supplier Part": "C137394",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "d1877b33a7f54f7f945a86aef34be8ab"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "R0805",
+          "PWMR3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "AC0805FR-0710KL",
+            "BOM_Supplier Part": "C140868",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "4269ffebb5fc4510a57fc57b1bd24dd2"
+          }
+        ],
+        [
+          "200Ohm",
+          1,
+          "R0805",
+          "PWMR4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "AC0805FR-0710KL",
+            "BOM_Supplier Part": "C140868",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "4269ffebb5fc4510a57fc57b1bd24dd2"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "R0805",
+          "PWMR5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C218416",
+            "BOM_Manufacturer": "Viking Tech",
+            "BOM_Manufacturer Part": "ARG05FTC2000",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "7856cfcf60ea4968996e02cf4f6356d2"
+          }
+        ],
+        [
+          "PC817X2NIP1B",
+          1,
+          "OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-TL",
+          "PWMU3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SHARP",
+            "BOM_Manufacturer Part": "PC817X2NIP1B",
+            "BOM_Supplier Part": "C164149",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f916a56ce35445cbbfa4ce2e90450c91",
+            "uuid": "cd6bc939f13646fcbee66b821106a528"
+          }
+        ]
+      ],
+      "updateTime": 1672912655,
+      "createTime": 1672211497,
+      "histories": [],
+      "created_at": "2022-12-28 08:11:37",
+      "updated_at": "2023-01-05 10:57:35"
+    },
+    {
+      "uuid": "7e5ad945c59de652dd31381ef481882b",
+      "puuid": "4197f32e80c3fb6962732a0038db6178",
+      "title": "PCB_Diplomski",
+      "filename": "PCB_Diplomski.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c8026257244b42b980c754fd7e67c03e": 1,
+        "dd4ff0cf16e44c9a893a4005f2a78ab7": 4,
+        "b60f399a7a7e41848b2be1eb49c79141": 3,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 5,
+        "89f5280378144b629de4998ef974b6b8": 1,
+        "e49c22feda3c425ab1bbace1f15de151": 1,
+        "9eee44af4c114646ade1fdea6137bfdc": 1,
+        "cdd2a2f88f9047a3974e8fb98887b1dd": 2,
+        "ad9bfa43bcf6461e887c81aa79243a8b": 2,
+        "88b7b62f56d14ce0a65d98c420c09d52": 1,
+        "d252b25eff4a423bb06df3d32cbe2f43": 1,
+        "bade90667a6e4731855e9a223387b8a6": 1,
+        "1dc685606e6c472fa35a8b508d1db7a7": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 2,
+        "f916a56ce35445cbbfa4ce2e90450c91": 1,
+        "98e4887b00dc455ba413989dad8d47f0": 1,
+        "948e610cffd14df79f04c73832b1409b": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Header-Female-2.54_1x3",
+          2,
+          "HDR-TH_3P-P2.54-V-F",
+          "ACS712-P1,VOLTAGE_SENS_P1",
+          {
+            "BOM_Supplier Part": "C146243",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Boom Precision Elec",
+            "BOM_Manufacturer Part": "Header-Female-2.54_1x3",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "cdd2a2f88f9047a3974e8fb98887b1dd",
+            "uuid": "beb7660708a0499fac6a060cc3851aa2"
+          }
+        ],
+        [
+          "1X2 POWER PCB CONNECTO COPY",
+          3,
+          "1X2-POWER-PCB-CONNECTOR",
+          "ACS712-P2,POWER,VOLTAGE_SENS_P2",
+          {
+            "BOM_Manufacturer Part": "1x2 pin header",
+            "puuid": "dd4ff0cf16e44c9a893a4005f2a78ab7",
+            "uuid": "9716b9a9ade742d3b6a51d0dab837304"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x4",
+          1,
+          "HDR-TH_4P-P2.54-V-M",
+          "BME-280",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Ckmtw(灿科盟)",
+            "BOM_Manufacturer Part": "B-2100S04P-A110",
+            "BOM_Supplier Part": "C124378",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "89f5280378144b629de4998ef974b6b8",
+            "uuid": "58557ab5dac544259249b4981dd6020c"
+          }
+        ],
+        [
+          "0.1UF/100V",
+          5,
+          "C0805",
+          "C1,C3,C4,C5,C6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900010259",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "0.1uF/100V",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "427c0d0e24e744f1855cf89162944982"
+          }
+        ],
+        [
+          "2.2uF",
+          1,
+          "2.2UF 50V",
+          "C2",
+          {
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "AISHI",
+            "BOM_Manufacturer Part": "ERM1HM2R2D11OT",
+            "BOM_Supplier Part": "C106603",
+            "puuid": "98e4887b00dc455ba413989dad8d47f0",
+            "uuid": "0419814e39e44057a275ca897a6f43ca"
+          }
+        ],
+        [
+          "ESP32",
+          1,
+          "ESP32-DEVKITC-32D",
+          "ESP32-WROOM-32D",
+          {
+            "BOM_Manufacturer": "ESPRESSIF",
+            "BOM_Manufacturer Part": "ESP32-DEVKITC-32D",
+            "BOM_Supplier": "TME",
+            "BOM_Supplier Part": "ESP32-DEVKITC-32D",
+            "puuid": "d252b25eff4a423bb06df3d32cbe2f43",
+            "uuid": "54d9199ba4d9482898c5364a4d2c0ab0"
+          }
+        ],
+        [
+          "Header-Male-2.54_2x2",
+          1,
+          "HDR-TH_4P-P2.54-V-M-R2-C2-S2.54-1",
+          "HALL_SENSOR",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "Double Rows2.54mm2*2pHeaders  Pins",
+            "BOM_Supplier Part": "C66690",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e49c22feda3c425ab1bbace1f15de151",
+            "uuid": "7c4042779cea4abdf4b201e0d3ecfdb3"
+          }
+        ],
+        [
+          "L7805CV",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "L7805",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ST(意法半导体)",
+            "BOM_Manufacturer Part": "L7805CV",
+            "BOM_Supplier Part": "C111887",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "9669163051044703a07eaec8582464b6"
+          }
+        ],
+        [
+          "M1_",
+          1,
+          "MOTOR_DC",
+          "MOTOR_DC",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "9eee44af4c114646ade1fdea6137bfdc",
+            "uuid": "f830b434fcd74bed9d677af047405a95"
+          }
+        ],
+        [
+          "POTENCIOMETER",
+          2,
+          "ALPS_POT",
+          "MOTOR_SPEED,ZERO_CURRENT",
+          {
+            "BOM_Manufacturer Part": "APAE_B10K_Potentiometer_Vertical",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "ad9bfa43bcf6461e887c81aa79243a8b",
+            "uuid": "6d047fa3f5b84be6b1615d5fd4d4bd96"
+          }
+        ],
+        [
+          "0.96OLED_4P",
+          1,
+          "0.96OLED_4P",
+          "OLED_DISPLAY",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "88b7b62f56d14ce0a65d98c420c09d52",
+            "uuid": "3af0bf2a9903493896a8f08e5a1d63a0"
+          }
+        ],
+        [
+          "S8050_C2926165",
+          1,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+          "PWMQ1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2926165",
+            "BOM_Manufacturer": "FOSAN(富信)",
+            "BOM_Manufacturer Part": "S8050LT1 J3Y",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "bade90667a6e4731855e9a223387b8a6",
+            "uuid": "054e886159684826893a3918b94fd921"
+          }
+        ],
+        [
+          "AOD518",
+          2,
+          "TO-252-2_L6.6-W6.1-P4.58-LS9.9-BR",
+          "PWMQ2,PWMQ3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C878924",
+            "BOM_Manufacturer": "VBsemi(微碧)",
+            "BOM_Manufacturer Part": "AOD518",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "1dc685606e6c472fa35a8b508d1db7a7",
+            "uuid": "ffaa370a8c4f4dc0b6b68c24854d75bf"
+          }
+        ],
+        [
+          "2K",
+          2,
+          "R1206",
+          "PWMR1,PWMR2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "RC1206FR-070RL",
+            "BOM_Supplier Part": "C137394",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "d1877b33a7f54f7f945a86aef34be8ab"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R0805",
+          "PWMR3,PWMR4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "AC0805FR-0710KL",
+            "BOM_Supplier Part": "C140868",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "4269ffebb5fc4510a57fc57b1bd24dd2"
+          }
+        ],
+        [
+          "200Ω",
+          1,
+          "R0805",
+          "PWMR5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C218416",
+            "BOM_Manufacturer": "Viking Tech",
+            "BOM_Manufacturer Part": "ARG05FTC2000",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "7856cfcf60ea4968996e02cf4f6356d2"
+          }
+        ],
+        [
+          "PC817X2NIP1B",
+          1,
+          "OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-TL",
+          "PWMU3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SHARP",
+            "BOM_Manufacturer Part": "PC817X2NIP1B",
+            "BOM_Supplier Part": "C164149",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f916a56ce35445cbbfa4ce2e90450c91",
+            "uuid": "cd6bc939f13646fcbee66b821106a528"
+          }
+        ]
+      ],
+      "updateTime": 1672912788,
+      "createTime": 1672212137,
+      "histories": [],
+      "created_at": "2022-12-28 08:22:17",
+      "updated_at": "2023-01-05 10:59:48"
+    }
+  ],
+  "sort": [],
+  "title": "Diplomski",
+  "foldername": "Diplomski",
+  "schfilename": "Diplomski.json",
+  "schfilemtime": 1672912655964
+}
