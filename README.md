@@ -15,7 +15,7 @@ U ovom projektu je demonstrirana primjena ESP32  mikrokontrolera kako bi se prik
 ThingSpeak  platforme za IoT analitiku i na mobilnom telefonu pomoću aplikacije ThingView - ThingSpeak viewer. 
 
 *****************************************************************************************************************************************************************************************
-		      ****** VAŽNE NAPOMENE *****
+      ****** VAŽNE NAPOMENE *****
 
 U okruženju Arduino IDE 1.8.13 nakon odabira ESP32 ploče i instalacije potrebnih biblioteka, prilikom kompajlovanja pod menijem Tools, Arduino Runs On: Odabrati Core 0 !!! 
 *****Jer u kodu imamo definisanu funkciju koja će raditi ThingSpeak razmjenu podataka na Core 1 *****
