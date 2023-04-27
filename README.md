@@ -28,7 +28,7 @@ https://api.thingspeak.com/update.json?api_key=IL62361NNH9W5X53&field3=1
 https://api.thingspeak.com/update.json?api_key=IL62361NNH9W5X53&field4=500
 
 *****************************************************************************************************************************************************************************************
-
+Kontakt: bokyvasic@gmail.com
 
 
 
